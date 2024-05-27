@@ -1,0 +1,115 @@
+@import "./Statics.scss";
+
+.founder {
+  width: 100%;
+  height: 100%;
+  background-color: $color1;
+
+  .container {
+    .founderProfile {
+      gap: 5rem;
+    }
+    .about-image {
+      width: 80%;
+      height: auto;
+      filter: drop-shadow(0 40px 10px rgba(92, 110, 88, 1)) hue-rotate(185deg);
+      animation: heroAnimation 1s infinite ease-in-out alternate;
+    }
+
+    .about-content {
+      .sub-heading {
+        font-size: 2.5rem;
+        letter-spacing: 0.1rem;
+        padding-bottom: 2rem;
+        color: $color5;
+      }
+    }
+  }
+  .container {
+    .about-skills {
+      margin-bottom: 5rem;
+      .main-heading {
+        font-size: 3rem;
+        letter-spacing: 0.1rem;
+        padding: 3rem 0;
+        color: $color5;
+      }
+
+      .box {
+        padding: 2rem 0;
+
+        .icon {
+          padding: 1rem;
+          border: 0.3rem solid $color2;
+          // width: 15rem;
+          height: 8rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 5rem;
+          color: $color5;
+        }
+      }
+    }
+    .about-experience {
+      padding: 3rem 0;
+
+      .main-heading {
+        font-size: 3rem;
+        letter-spacing: 0.1rem;
+        padding: 3rem 0;
+        color: $color5;
+      }
+
+      .experience {
+        width: 100%;
+        height: 20rem;
+        color: $color5;
+        padding: 2rem 0;
+
+        .exp-desc {
+          display: flex;
+          justify-content: center;
+          place-items: center;
+          border: 0.2rem solid $color2;
+
+          > p {
+            color: $color5;
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            span {
+              font-size: 3rem;
+              color: $color2;
+            }
+            sup {
+              color: $color2;
+              font-size: 2rem;
+              span {
+                font-size: 1.5rem;
+                color: $color5;
+              }
+            }
+          }
+        }
+
+        .exp-place1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          border: 0.2rem solid $color2;
+          padding: 1rem 2rem;
+
+          > p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: $color5;
+            line-height: 3rem;
+            letter-spacing: 0.1rem;
+            word-spacing: 0.2rem;
+          }
+        }
+      }
+    }
+  }
+}

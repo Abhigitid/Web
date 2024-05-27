@@ -1,0 +1,41 @@
+@import "./Statics.scss";
+
+.paymentsuccess {
+  width: 100%;
+  height: 100%;
+  background-color: $color1;
+  .container {
+    display: flex;
+    flex-direction: column;
+    .payment-success-card {
+      margin-top: 5rem;
+      border: 0.2rem solid $color3;
+      width: 35rem;
+      font-size: 1.6rem;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .payment-card-header {
+        color: $color6;
+        padding: 1rem;
+        background-color: $color3;
+      }
+      .payment-successful-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $color5;
+        > h3 {
+          line-height: 3rem;
+          padding: 2rem 0;
+        }
+        > a {
+          margin: 2rem 0;
+        }
+      }
+    }
+  }
+}

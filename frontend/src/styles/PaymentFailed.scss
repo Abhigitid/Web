@@ -1,0 +1,23 @@
+@import "./Statics.scss";
+
+.paymentfailed {
+  width: 100%;
+  height: 100%;
+  background-color: $color1;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > div {
+      margin-top: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      > a {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

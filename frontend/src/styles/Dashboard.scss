@@ -1,0 +1,57 @@
+@import "./Statics.scss";
+
+.dashboard {
+  width: 100%;
+  height: 100%;
+
+  .dashboard-container {
+    padding: $sec_p;
+
+    .dashboard-content {
+      display: flex;
+      gap: 5rem;
+
+      .databox {
+        width: 100%;
+
+        .data {
+          justify-content: space-evenly;
+          display: flex;
+
+          height: 20rem;
+          .box h1,
+          h2,
+          h3 {
+            color: $color5;
+            padding: 0.5rem;
+          }
+
+          .box {
+            width: 25rem;
+            height: 11rem;
+            padding: 2rem;
+            border: 0.2rem solid $color2;
+          }
+        }
+        .barChart {
+          border: 0.2rem solid $color2;
+
+          width: 100%;
+        }
+        .dougnutChart {
+          margin-top: 2rem;
+          width: 40%;
+          height: auto;
+        }
+      }
+      .sidebar {
+        width: 30rem;
+
+        border: 0.2rem solid green;
+      }
+      .sidebarNav {
+        display: flex;
+      }
+    }
+  }
+}

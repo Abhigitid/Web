@@ -1,0 +1,72 @@
+@import "./Statics.scss";
+
+.login {
+  width: 100%;
+  height: 100%;
+  background-color: $color1;
+
+  .container {
+    .login-page {
+      gap: 5rem;
+      .login-image {
+        width: 80%;
+        margin: auto;
+        .login-text {
+          > p {
+            text-align: center;
+          }
+          > h1 {
+            font-size: 3rem;
+          }
+        }
+      }
+      .login-form {
+        padding: 5rem;
+        background-color: $color2;
+        > h1 {
+          color: $color1;
+        }
+        > form {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          > div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            > label {
+              padding: 1rem 0;
+              font-size: 2rem;
+              font-weight: bold;
+              color: $color1;
+            }
+            > input {
+              margin-bottom: 1rem;
+              padding: 2rem;
+            }
+          }
+          .button {
+            margin: 2rem 0;
+
+            color: $color5;
+            background-color: $color1;
+            &:hover {
+              background-color: $color3;
+              color: $color1;
+            }
+          }
+          a {
+            font-size: 1.5rem;
+            color: $color5;
+          }
+          .login-text {
+            color: $color1;
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+}

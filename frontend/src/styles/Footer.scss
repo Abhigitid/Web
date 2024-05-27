@@ -1,0 +1,26 @@
+@import "./App.scss";
+@import "./Statics.scss";
+
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: $color2;
+  //   position: absolute;
+  padding-top: 15rem;
+  .container {
+    max-width: 100%;
+    padding: $sec_p;
+    gap: 1rem;
+    .owner,
+    .developer,
+    .terms {
+      padding: 1rem 0;
+
+      > p,
+      a {
+        font-size: 1.5rem;
+        color: $color1;
+      }
+    }
+  }
+}

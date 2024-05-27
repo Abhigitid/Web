@@ -1,0 +1,26 @@
+@import "./Statics.scss";
+
+.coursePage {
+  width: 100%;
+  height: 100%;
+  background-color: $color1;
+
+  .container {
+    .video-section {
+      display: flex;
+      gap: 2rem;
+
+      .course-topic {
+        width: 50rem;
+
+        display: flex;
+        flex-direction: column;
+        .topic-name {
+          height: 5rem;
+          background-color: $color1;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

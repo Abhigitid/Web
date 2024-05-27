@@ -1,0 +1,50 @@
+@import "./Statics.scss";
+
+.about {
+  width: 100%;
+  height: 100%;
+  background-color: $color1;
+
+  .container {
+    .about-comp {
+      gap: 5rem;
+
+      .founder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+        .founder-img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            border-radius: 50%;
+          }
+        }
+
+        .founder-details {
+          display: flex;
+          flex-direction: column;
+          button {
+            align-items: center;
+          }
+        }
+      }
+
+      .comp-details {
+        padding: $sec_p 0;
+      }
+    }
+
+    .about-story {
+      margin-top: 10rem;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import "./Statics.scss";
+
+.modal-body {
+  padding: 2rem;
+  color: $color5;
+  display: grid;
+
+  .add-lec-form {
+    display: flex;
+    justify-content: flex-end;
+
+    .form {
+      padding: 1rem 0;
+      .add-lecture {
+        > div {
+          padding: 1rem 0;
+
+          > input {
+            display: flex;
+            margin-top: 0.8rem;
+            padding: 2rem;
+            width: 30rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 0.1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.videoCard {
+  padding: 2rem;
+  border: 0.2rem solid $color2;
+  display: flex;
+  border-radius: 0.5rem;
+  .videoCardHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .deleteBtn {
+    margin-left: 38rem;
+  }
+}
